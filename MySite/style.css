@@ -1,0 +1,699 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/img/AB1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+.BTS {
+    position: absolute;
+    height: 980px;
+    width: 900px;
+    top: 50%;
+    left: 65%;
+    margin-top: -490px;
+    margin-left: -450px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgba(255, 255, 255);
+}
+
+#BT1 {
+    position: absolute;
+    top: 70%;
+    left: 340px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 200%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+    text-align: end;
+    padding-left: 20px;
+}
+
+#BT1:hover {
+    padding-right: 20px;
+    text-align: end;
+    background: linear-gradient(-45deg,
+    rgb(255, 0, 0), rgb(177, 0, 0), rgb(141, 0, 0), 
+    rgb(246, 31, 31), rgb(255, 48, 48));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#BT1:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+#BT2 {
+    position: absolute;
+    top: 70%;
+    left: 720px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 200%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+    padding-left: 20px;
+}
+
+#BT2:hover {
+    background: linear-gradient(-45deg,
+    rgb(123, 0, 255), rgb(112, 0, 177), rgb(87, 0, 154), 
+    rgb(156, 31, 246), rgb(176, 48, 255));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#BT2:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+#BT3 {
+    position: absolute;
+    top: 26%;
+    left: 340px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 200%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+    padding-right:30px;
+}
+
+#BT3:hover {
+    background: linear-gradient(-45deg,
+    rgb(0, 102, 255), rgb(0, 59, 177), rgb(0, 61, 141), 
+    rgb(31, 81, 246), rgb(48, 138, 255));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#BT3:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+#BT4 {
+    position: absolute;
+    top: 26%;
+    left: 720px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 200%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+
+#BT4:hover {
+    background: linear-gradient(-45deg,
+    rgb(89, 0, 255), rgb(38, 0, 177), rgb(16, 0, 141), 
+    rgb(63, 31, 246), rgb(79, 48, 255));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    padding-left: 70px;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#BT4:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+#BT5 {
+    position: absolute;
+    top: 40%;
+    left: 720px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 180%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+
+#BT5:hover {
+    background: linear-gradient(-45deg,
+    rgb(0, 255, 47), rgb(0, 177, 50), rgb(0, 141, 26),
+    rgb(31, 246, 85),rgb(48, 255, 107));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    padding-left: 80px;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 180%;
+}
+
+#BT5:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+#BT6 {
+    position: absolute;
+    top: 40%;
+    left: 340px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 200%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+
+#BT6:hover {
+    background: linear-gradient(-45deg,
+    rgb(0, 174, 255), rgb(0, 121, 177), rgb(0, 82, 141), 
+    rgb(31, 156, 246),rgb(48, 183, 255));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    padding-left: 70px;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#BT6:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+#BT7 {
+    position: absolute;
+    top: 84%;
+    left: 340px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 200%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+
+#BT7:hover {
+    background: linear-gradient(-45deg,
+    rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255),
+    rgb(255, 255, 255), rgb(255, 255, 255));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    padding-left: 70px;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#BT7:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+#BT8 {
+    position: absolute;
+    top: 84%;
+    left: 720px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    backdrop-filter: blur(8px);
+    font-size: 200%;
+    outline: none;
+    margin-left: -200px;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.804);
+    cursor: pointer;
+    background-color: rgb(150, 150, 150);
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+
+#BT8:hover {
+    background: linear-gradient(-45deg,
+    rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), 
+    rgb(255, 255, 255), rgb(255, 255, 255));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    padding-left: 70px;
+    border-radius: 30px;
+    color: rgba(16, 16, 16, 0.998);
+    width: 240px;
+    font-weight: 600;
+    height: 100px;
+    transition: 0.4s;
+    font-size: 200%;
+}
+
+#BT8:active {
+    box-shadow: 0px 0px 10px #000000;
+    width: 240px;
+    height: 101px;
+    transition: 0.2s;
+}
+
+.fa-youtube {
+    position: absolute;
+    top: 24.5%;
+    left: 22px;
+    font-size: 50px;
+    color: rgba(16, 16, 16, 0.998);
+    z-index: 2;
+}
+
+.fa-twitch {
+    position: absolute;
+    top: 27%;
+    left: 25px;
+    font-size: 50px;
+    color: rgba(16, 16, 16, 0.998);
+    z-index: 2;
+}
+
+.fa-vk {
+    position: absolute;
+    top: 21%;
+    left: 25px;
+    font-size: 58px;
+    color: rgba(16, 16, 16, 0.998);
+    z-index: 2;
+}
+
+.fa-discord {
+    position: absolute;
+    top: 23%;
+    left: 19px;
+    font-size: 52px;
+    color: rgb(16, 16, 16);
+    z-index: 2;
+}
+
+.fa-chevron-left {
+    position: relative;
+    font-size: 80%;
+    top: -2%;
+    left: -12%;
+    color: rgb(0, 0, 0);
+}
+
+.fa-chevron-right {
+    position: relative;
+    font-size: 240%;
+    color: rgb(0, 0, 0);
+}
+
+.fa-house {
+    position: absolute;
+    top: 0%;
+    left: -60%;
+}
+
+.fa-newspaper {
+    position: absolute;
+    top: 10%;
+    left: -62%;
+}
+
+.fa-address-book {
+    position: absolute;
+    top: 10%;
+    left: -40%;
+}
+
+.fa-users-line {
+    position: absolute;
+    top: 15%;
+    left: -41%;
+}
+
+.fa-whatsapp {
+    position: absolute;
+    top: 18%;
+    left: 23px;
+    font-size: 64px;
+    color: rgba(16, 16, 16, 0.998);
+    z-index: 2;
+}
+
+.fa-telegram {
+    position: absolute;
+    top: 20%;
+    left: 22px;
+    font-size: 60px;
+    color: rgba(16, 16, 16, 0.998);
+    z-index: 2;
+}
+
+a {
+    color:#101010;
+    text-decoration:none
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.body {
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    background-color: #12121276;
+    z-index: 3;
+}
+
+.body:target {
+    display: block;
+}
+
+#menu {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 420px;
+    height: 95%;
+    border: 5px solid rgb(182, 182, 182);
+    border-radius: 28px;
+    opacity: 0.8;
+    background: url('/img/BG3.png');
+    background-repeat: no-repeat;
+    background-size: 800%;
+    overflow: hidden;
+    box-shadow: 60px 0 200px #cbcbcb;
+    
+}
+
+.CMenuBT {
+    cursor: default;
+    position: absolute;
+    top: 5%;
+    left: 88%;
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 8px;
+    background-color: #11111100;
+    border: none;
+}
+
+.OMenuBT {
+    cursor: default;
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 8px;
+    background-color: #11111100;
+    border: none;
+}
+
+#Home {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-size: 240%;
+}
+
+#News {
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    font-size: 240%;
+}
+
+#Contacts {
+    position: absolute;
+    top: 34%;
+    left: 20%;
+    font-size: 240%;
+}
+
+#AboutUs {
+    position: absolute;
+    top: 41%;
+    left: 20%;
+    font-size: 240%;
+}
+
+.BTS hr {
+    height: 1px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.56);
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 #00000000;
+    border-radius: 20%;
+}
+
+h2 {
+    color: rgb(180, 180, 180);
+    position: absolute;
+    font-size: 240%;
+}
+
+#FText {
+    top: 50%;
+    left: 29%;
+}
+
+#SText {
+    top: 5%;
+    left: 33%;
+}
+
+.TEXT {
+    position: relative;
+    top: 36%;
+    left: 25%;
+    height: 600px;
+    width: 500px;
+    margin-top: -300px;
+    margin-left: -250px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgba(255, 255, 255);
+}
+
+.TEXT1 {
+    position: absolute;
+    top: 2%;
+    left: 11%;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    font-weight: 600;
+}
+
+.TEXT2 {
+    position: absolute;
+    top: 15%;
+    left: 11%;
+    color: rgb(220, 220, 220);
+    font-size: 200%;
+    font-weight: 500;
+}
+
+.IMG {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    height: 300px;
+    width: 400px;
+    margin-top: -150px;
+    margin-left: -200px;
+    background-image: url(/img/Logo.png);
+    background-position: center;
+    background-size: 120%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(60, 60, 60);
+}
+
+.BACK {
+    position: relative;
+    top: 54%;
+    left: 25%;
+    height: 200px;
+    width: 500px;
+    margin-top: -100px;
+    margin-left: -250px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 40px rgba(255, 255, 255);
+}
+
+.BACKBT {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 280px;
+    margin-top: -40px;
+    margin-left: -140px;
+    background: linear-gradient(-45deg,
+    rgb(232, 232, 232), rgb(232, 232, 232), rgb(200, 100, 200));
+    background-size: 200%;
+    animation: gradient 10s ease infinite;
+    color: black;
+    font-size: 260%;
+    font-weight: 600;
+    overflow: hidden;
+    padding-right: 35px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    z-index: 50;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
